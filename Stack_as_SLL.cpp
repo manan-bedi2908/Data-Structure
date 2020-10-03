@@ -86,7 +86,7 @@ class SLList
 			return(head->info);
 		}
 
-		bool check_list_empty()
+		bool is_head_null()
 		{
 			if(head == NULL)
 				return true;
@@ -116,7 +116,7 @@ class Stack
 
 		bool isempty()
 		{
-			return(L1.check_list_empty());
+			return(L1.is_head_null());
 		}
 
 		T top_element()
